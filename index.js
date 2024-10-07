@@ -97,18 +97,18 @@ class FileSystem {
 // Ejemplos de uso:
 const fs = new FileSystem();
 
-fs.mkdir("inicio"); // Crea el directorio 'inicio'
-fs.mkdir("inicio"); // Crea el directorio 'inicio'
-fs.cd("inicio"); // Cambia al directorio 'inicio'
-fs.mkdir("user"); // Crea el directorio 'user'
-fs.cd("user"); // Cambia al directorio 'user'
-fs.touch("archivo1.txt"); // Crea un archivo en el directorio actual
-fs.touch("archivo1.txt"); // Crea un archivo en el directorio actual
-fs.touch("archivo2.txt"); // Crea un archivo en el directorio actual
-fs.ls(); // Lista el contenido del directorio actual
-fs.pwd(); // Imprime la ruta actual
-fs.cd(".."); // Vuelve al directorio anterior ('inicio')
-fs.ls(); // Lista el contenido de 'inicio'
-fs.pwd(); // Imprime la ruta actual ('/inicio')
-fs.cd(".."); // Vuelve al directorio raíz
-fs.pwd(); // Imprime la ruta actual ('/')
+fs.mkdir("inicio"); 
+fs.mkdir("inicio"); 
+fs.cd("inicio"); 
+fs.mkdir("user"); 
+fs.cd("user"); 
+fs.touch("archivo1.txt");
+fs.touch("archivo1.txt");
+fs.touch("archivo2.txt");
+fs.ls(); 
+fs.pwd();
+fs.cd("..");
+fs.ls();
+fs.pwd(); ('/inicio')
+fs.cd("..");
+fs.pwd(); ('/')
